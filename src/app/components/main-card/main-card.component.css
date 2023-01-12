@@ -1,0 +1,45 @@
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 1000px;
+}
+
+.menus{
+    /* width: 1000px; */
+}
+
+.main__card-image {
+    margin-right: 20px;
+    width: 100%;
+}
+
+.main__card-text {
+    margin: auto;
+    text-align: center;
+}
+
+.main__card-text p {
+    color: #F5C400;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+.main__card-more{
+    background-color: #0097FF;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+.main__card-more a {
+    background-color: #0097FF;
+    color: white;
+    text-decoration: none;
+}

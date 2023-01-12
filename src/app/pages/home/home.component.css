@@ -1,0 +1,20 @@
+body{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.articles__others{
+    display: flex;
+    padding-left: 16%;
+    /* justify-content: center; */
+    /* padding-left: -150px; */
+
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* padding-left: 20px; */
+
+}

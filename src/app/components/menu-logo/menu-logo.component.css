@@ -1,0 +1,18 @@
+*{
+    color: #F5C400;
+}
+
+.container__menu-logo {
+    margin-left: 20%;
+    padding-top: 3%;
+    text-align: center;
+    width: 1000px;
+}
+.logo__name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+}
+
+.logo__function {
+    font-size: 36px;
+}
