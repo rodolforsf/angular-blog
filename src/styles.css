@@ -1,7 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-* {
+/* * {
     background-color: #2E2824;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: #2E2824; 
 }
