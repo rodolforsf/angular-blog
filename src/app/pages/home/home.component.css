@@ -1,10 +1,6 @@
 
 .articles__others{
     display: flex;
-    /* width: 300px; */
+    /* justify-content: space-between; */
 
-
-    /* justify-content: center; */
-    padding-left: 500px;
-
- } 
+ }  

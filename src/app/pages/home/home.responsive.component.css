@@ -1,0 +1,50 @@
+@media screen and (min-width: 1025px) {
+    
+    /* ------------------------------   OTHER-CARD  --------------------------------------------- */
+.articles__others{
+    justify-content: space-around;
+    margin-left: calc(50% - 525px);
+
+    width: 900px;
+ }  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    
+    /* ------------------------------   OTHER-CARD  --------------------------------------------- */
+    .articles__others{
+        justify-content: space-around;
+        margin-left: calc(50% - 350px);
+        width: 675px;
+        height: 225px;
+     }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    
+    /* ------------------------------   OTHER-CARD  --------------------------------------------- */
+    .articles__others{
+        justify-content: space-around;
+        margin-left: calc(50% - 215px);
+        width: 420px;
+     }
+}
+
+@media screen and (max-width: 480px)  {
+    
+    
+    /* ------------------------------   OTHER-CARD  --------------------------------------------- */
+
+    .articles__others{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: calc(50% - 66px);
+        margin-top: 4%;
+        width: 120px;
+     }
+
+}
