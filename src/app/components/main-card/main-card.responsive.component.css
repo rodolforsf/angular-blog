@@ -10,6 +10,7 @@
     }
     
     .main__card-image img{
+        margin-bottom: 5px;
         width: 720px;
     }
     .main__card-text p{
@@ -37,6 +38,7 @@
     }
     
     .main__card-image img{
+        margin-bottom: 3px;
         width: 540px;
     }
     .main__card-text p{
@@ -67,6 +69,7 @@
     }
     
     .main__card-image img{
+        margin-bottom: 3px;
         width: 340px;
     }
     .main__card-text p{
@@ -76,11 +79,7 @@
         border-radius: 5px;
         padding: 5px;
         width: 75px;
-    }
-    /* .main__card-more a{
-        color: ;
-    } */
-     
+    }   
     }
     
     
@@ -94,12 +93,9 @@
         color: #F5C400;
         display: flex;
         flex-direction: column;
-        /* font-size: 24px; */
         justify-content: center;
         align-items: center;
         margin-left: calc(50% - 150px);
-        
-        /* margin-left: 50%; */
         width: 320px;
     }
     
@@ -112,14 +108,15 @@
         flex-direction: column;
     }
     .main__card-text p{
+        margin-left: 21%;
         padding: 10px 0;
         width: 60%;
-        margin-left: 21%;
     }
     .main__card-more{    
         background-color: #0097FF;
         border: 1px solid #0097FF;
         border-radius: 10px;
+        margin-bottom: 10px;
         padding: 5px;
         width: 160px;
         margin-left: calc(50% - 85px);
@@ -127,7 +124,7 @@
     .main__card-more a{
         background-color: #0097FF;
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 16px;   
         text-decoration: none;
     }
     .main__card-more a:hover{
