@@ -3,10 +3,10 @@
         <img src="{{photoCover}}">
 
     </div>
-    <div class="main__card-text">        
+    <div class="main__card-text">
         <p>
             {{cardDescription}}
         </p>
-        <button class="main__card-more"><a href="#">Saiba mais</a></button>
+        <button class="main__card-more"><a [routerLink]="['content', Id]">Saiba mais</a></button>
     </div>
 </div>

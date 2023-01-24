@@ -1,7 +1,7 @@
 /* --------------------------------  MENU-BAR  ------------------------------------------- */
-.container__menu-bar{
+.container__menu-bar {
     align-items: center;
-    background-color: #F5C400;   
+    background-color: #F5C400;
     justify-content: center;
     margin: 2% 0;
     padding: 2%;
@@ -9,10 +9,11 @@
     text-transform: uppercase;
     width: 900px;
 }
-.menus{  
+
+.menus {
     align-items: center;
     background-color: #F5C400;
-    display: flex;    
+    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     margin: 2% 0;
@@ -20,14 +21,17 @@
     text-transform: uppercase;
 
 }
+
 .menus li {
     padding-left: 4%;
 }
-.menus a{
+
+.menus a {
     color: #FFFFFF;
     text-decoration: none;
 }
-.menus a:hover{
+
+.menus a:hover {
     padding: 3%;
     transition: 0.4s;
 }

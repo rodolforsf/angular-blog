@@ -6,12 +6,10 @@
 .other-cards{
     align-items: center;
     display: flex;
+    display: inline;
     flex-direction: row;
     flex-wrap: wrap;
     height: 300px;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    display: inline;
 
 }
 .destaques__others-cards{

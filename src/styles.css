@@ -6,21 +6,16 @@
     padding: 0;
 } */
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-   background-color: #2E2824; 
+    background-color: #2E2824;
 }
 
-.container__other-cards{
+.container__other-cards {
     width: auto;
 }
-
-/* .other-cards{
-    display: flex;
-    flex-direction: column;
-} */

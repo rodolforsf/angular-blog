@@ -1,107 +1,103 @@
 @media screen and (min-width: 1025px) {
-    
-    /* ------------------------------   OTHER-CARD  --------------------------------------------- */
-    /* .articles__others{
-        margin-left: calc(50% - 530px);    
-     }   */
 
-    .other-cards{
-        display: flex;
-        justify-content: center;
+    /* ------------------------------   OTHER-CARD  --------------------------------------------- */
+    .other-cards {
         align-items: center;
-        /* margin-left: calc(50% - 450px); */
-        margin-left: 30%;
-        /* width: 30%; */
-        margin-left: 40%;
-        height: 300px;
         display: flex;
         flex-direction: row;
-    
+        height: 300px;
+        justify-content: center;
+        margin-left: 40%;
     }
-    .destaques__others-cards{
-        width: 280px;
+
+    .destaques__others-cards {
         padding: 10px;
+        width: 280px;
     }
-    .destaques__others-cards img{
+
+    .destaques__others-cards img {
         padding: 5px;
         width: 240px;
     }
-    .destaques__others-cards button{
-        width: 150px;
-        font-size: 20px;
+
+    .destaques__others-cards button {
         border-radius: 8px;
+        font-size: 20px;
         padding: 5px;
+        width: 150px;
     }
-    
-    }
-    
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-    
-    
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
     /* ------------------------------   OTHER-CARD  --------------------------------------------- */
- 
-    .other-cards{
+
+    .other-cards {
         height: 225px;
-        width: 675px;        
+        width: 675px;
     }
-    .destaques__others-cards{
+
+    .destaques__others-cards {
         padding: 8px;
         width: 210px;
     }
-    .destaques__others-cards img{
+
+    .destaques__others-cards img {
         padding: 4px;
         width: 180px;
     }
-    .destaques__others-cards button{
+
+    .destaques__others-cards button {
         border-radius: 6px;
         font-size: 15px;
         padding: 4px;
         width: 110px;
     }
-    
-    }
-    
-    
-    
-    
-    @media screen and (min-width: 481px) and (max-width: 768px) {
-    
-    
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
     /* ------------------------------   OTHER-CARD  --------------------------------------------- */
-    
-    .other-cards{
+
+    .other-cards {
         height: 140px;
-        /* margin-left: calc(50% - 210px); */
         width: 420px;
     }
-    .destaques__others-cards{
+
+    .destaques__others-cards {
         padding: 5px;
         width: 130px;
     }
-    .destaques__others-cards img{
+
+    .destaques__others-cards img {
         padding: 3px;
         width: 110px;
     }
-    .destaques__others-cards button{
+
+    .destaques__others-cards button {
         border-radius: 4px;
         font-size: 10px;
         padding: 3px;
         width: 70px;
     }
-        
-    }
-    
-    
-    @media screen and (max-width: 480px)  {
-    
-    
+}
+
+
+@media screen and (max-width: 480px) {
+
+
     /* ------------------------------   OTHER-CARD  --------------------------------------------- */
-    
-    .container__other-cards{
+
+    .container__other-cards {
         margin-top: 1%;
-    
     }
-    .other-cards{
+
+    .other-cards {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -110,10 +106,9 @@
         margin: 4% 0;
         margin-bottom: 200px;
         margin-left: calc(50% - 130px);
-        /* width: 320px; */
-    
     }
-    .destaques__others-cards{
+
+    .destaques__others-cards {
         align-items: center;
         background-color: #F5C400;
         display: flex;
@@ -121,11 +116,13 @@
         padding: 10px;
         width: 280px;
     }
-    .destaques__others-cards img{
+
+    .destaques__others-cards img {
         padding: 5px;
         width: 240px;
     }
-    .destaques__others-cards button{
+
+    .destaques__others-cards button {
         background-color: #151827;
         border: 2px solid #F5C400;
         border-radius: 8px;
@@ -133,11 +130,10 @@
         padding: 5px;
         width: 150px;
     }
-    .destaques__others-cards button a{
+
+    .destaques__others-cards button a {
         background-color: #151827;
         color: #FFFFFF;
         text-decoration: none;
     }
-        
-    }
-    
+}

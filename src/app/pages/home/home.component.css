@@ -1,6 +1,3 @@
-
-.articles__others{
+.articles__others {
     display: flex;
-    /* justify-content: space-between; */
-
- }  
+}

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-other-card',
@@ -8,10 +8,11 @@ import { Component, Input, OnInit} from '@angular/core';
 export class OtherCardComponent {
 
   @Input()
-  photoCover:string = ""
-
+  photoCover: string = ""
   @Input()
-  cardTitle:string = ""
+  cardTitle: string = ""
+  @Input()
+  Id: string = "0"
 
   constructor() { }
 

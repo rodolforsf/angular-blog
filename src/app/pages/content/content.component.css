@@ -1,0 +1,37 @@
+.container__content {
+    align-items: center;
+    color: #F5C400;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.content_cover {
+    border: 1px solid gray;
+
+}
+
+.content_cover>img {
+    border: 5px solid rgb(144, 144, 144);
+    border-radius: 5px;
+    height: 300px;
+    min-width: 320px;
+    width: 500px;
+}
+
+.content_description {
+    margin-top: 15px;
+}
+
+.content_description>p {
+    color: #F5C400;
+}
+
+.content_description>a {
+    color: #52f507;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}

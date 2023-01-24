@@ -8,18 +8,17 @@ import { Component, Input } from '@angular/core';
 export class MainCardComponent {
 
   @Input()
-  photoCover:string = ""
+  photoCover: string = ""
   @Input()
-  cardTitle:string = ""
+  cardTitle: string = ""
   @Input()
-  cardDescription:string = ""
+  cardDescription: string = ""
+  @Input()
+  Id: string = "1"
 
   constructor() {
-
-
   }
 
   ngOnInit(): void {
-
   }
 }
